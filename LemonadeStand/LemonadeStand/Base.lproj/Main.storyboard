@@ -118,54 +118,82 @@
                                 <state key="normal" title="-">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="takeLemonsOrderButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IgO-G0-JrQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJy-Zn-3TE">
                                 <rect key="frame" x="257" y="163" width="30" height="30"/>
                                 <state key="normal" title="+">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="addLemonsOrderButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lkE-Ic-lU4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppS-Ng-J1c">
                                 <rect key="frame" x="158" y="201" width="30" height="30"/>
                                 <state key="normal" title="-">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="takeCubesOrderButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pFT-We-hGr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oxv-lb-r26">
                                 <rect key="frame" x="257" y="201" width="30" height="30"/>
                                 <state key="normal" title="+">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="addCubesOrderButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ggf-Yv-52N"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ra-3h-eLn">
                                 <rect key="frame" x="158" y="304" width="30" height="30"/>
                                 <state key="normal" title="-">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="takeLemonsMixButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qhL-tO-Eyt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNi-k5-WiY">
                                 <rect key="frame" x="257" y="304" width="30" height="30"/>
                                 <state key="normal" title="+">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="addLemonsMixButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ajC-AI-hdP"/>
+                                    <action selector="takeLemonsMixButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="71t-xs-FZp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWD-kW-LUb">
                                 <rect key="frame" x="158" y="342" width="30" height="30"/>
                                 <state key="normal" title="-">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="takeCubesMixButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xaM-rc-Zrv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b98-Nd-GwM">
                                 <rect key="frame" x="128" y="497" width="64" height="30"/>
                                 <state key="normal" title="Start Day">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="startDayButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="anc-zn-WIn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czI-hC-bcC">
                                 <rect key="frame" x="257" y="342" width="30" height="30"/>
                                 <state key="normal" title="+">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="addCubesMixButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jj9-1A-4Fy"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do THEY prefer more ice or more lemons today?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jId-Mp-3Lx">
                                 <rect key="frame" x="33" y="265" width="271" height="31"/>
@@ -177,6 +205,25 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="addCubesOrderButton" destination="Oxv-lb-r26" id="2BT-p5-Nin"/>
+                        <outlet property="addLemonsOrderButton" destination="sJy-Zn-3TE" id="IZU-fb-7BE"/>
+                        <outlet property="addMixCubesButton" destination="czI-hC-bcC" id="KTo-wq-aog"/>
+                        <outlet property="addMixLemonsButton" destination="KNi-k5-WiY" id="Fof-Rr-Tc9"/>
+                        <outlet property="currentCashLabel" destination="Hr9-Ao-lYc" id="guN-fw-9C4"/>
+                        <outlet property="currentCubesLabel" destination="Xqm-OS-oKv" id="WoE-Rz-rdl"/>
+                        <outlet property="currentLemonsLabel" destination="SkP-7l-A41" id="5pS-bo-Bmz"/>
+                        <outlet property="mixCubesLabel" destination="bbB-oS-9ml" id="2id-yh-jSK"/>
+                        <outlet property="mixLemonsLabel" destination="BR4-hU-48N" id="HYF-sx-ich"/>
+                        <outlet property="orderCubesLabel" destination="gZh-3n-G85" id="ts0-YA-4AB"/>
+                        <outlet property="orderLemonsLabel" destination="zRD-DC-eo4" id="CWn-OA-1c8"/>
+                        <outlet property="startDayButton" destination="b98-Nd-GwM" id="Vx6-r5-cC3"/>
+                        <outlet property="takeCubesOrderButton" destination="ppS-Ng-J1c" id="Vop-OB-cDr"/>
+                        <outlet property="takeLemonsOrderButton" destination="kzi-oJ-QIO" id="uNi-y6-eL0"/>
+                        <outlet property="takeMixCubesButton" destination="GWD-kW-LUb" id="Y6m-xc-q7R"/>
+                        <outlet property="takeMixLemonsButton" destination="4Ra-3h-eLn" id="RDR-0I-YqO"/>
+                        <outlet property="youHaveLabel" destination="aUw-rB-NbG" id="ki4-lP-DVl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
